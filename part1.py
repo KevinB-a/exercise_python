@@ -1,4 +1,23 @@
-# exercice 1 afficher "Hello World"
+# exercise 1 : display "Hello World"
 print("Hello World")
 var="Hello World"
 print(var)
+
+# exercise 2 :  miscellaneous calculations
+print(3*3)
+
+def divide(a,b):
+    try:
+        result=a/b
+    except:
+        print("you try to divide by zero !")
+    else:
+        print ("result is ",result)
+divide(12,0)
+print(4+9+78)
+print(12-7)
+print(5e4)
+
+#exercise3 : communicate with computer
+nom=input("veuillez entrez votre nom")
+print("bonjour et bienvenue !",nom)
