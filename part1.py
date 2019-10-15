@@ -9,11 +9,11 @@ print(3*3)
 def divide(a,b):
     try:
         result=a/b
-    except:
+        print("result is ",result)
+    except ZeroDivisionError:
         print("you try to divide by zero !")
-    else:
-        print ("result is ",result)
-divide(12,0)
+
+divide(12,2)
 print(4+9+78)
 print(12-7)
 print(5e4)
