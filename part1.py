@@ -5,7 +5,7 @@ print(var)
 
 # exercise 2 :  miscellaneous calculations
 print(3*3)
-
+# create a function who divide numbers
 def divide(a,b):
     try:
         result=a/b
@@ -26,3 +26,8 @@ print("bonjour et bienvenue !",nom)
 first_name="kevin"
 last_name= "billet"
 print("Bonjour {} {}".format(first_name,last_name))
+
+#exercise5 : characters to number
+myNumber="123"
+int_myNumber=int(myNumber) # create a new variable and converting to integer
+type(int_myNumber)
