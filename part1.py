@@ -21,3 +21,8 @@ print(5e4)
 #exercise3 : communicate with computer
 nom=input("veuillez entrez votre nom")
 print("bonjour et bienvenue !",nom)
+
+#exercise4 : first name and last name
+first_name="kevin"
+last_name= "billet"
+print("Bonjour {} {}".format(first_name,last_name))
