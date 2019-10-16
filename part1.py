@@ -34,5 +34,5 @@ type(int_myNumber)
 
 #exercise6 : upper and lower case
 word=input("please enter a word")
-word.upper() #change lower letters in upper letters
-word.lower() #change upper letters in lower letters
+print(word.upper()) #change lower letters in upper letters
+print(word.lower()) #change upper letters in lower letters
