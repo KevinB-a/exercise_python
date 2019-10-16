@@ -11,3 +11,11 @@ age=actual_year-born_year
 print("Your age is" ,age)
 age1=int(input("enter age of your neighboor"))
 print(age +age1)
+
+#exercise3 :Shoes issues
+shoes=70
+jean=59
+t_shirt=20
+total=shoes+jean+t_shirt
+reduc=80/100
+print(total*reduc)
