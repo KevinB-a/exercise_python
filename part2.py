@@ -26,10 +26,10 @@ number2=float(input("please enter a sencond number"))
 print(number1+number2)
 
 #exercise5 : work with property
-name=input("please enter your name")
-last_name=input("please enter your last name")
-letter=name[0]
-letter1=name[-1]
-letter2=last_name[0]
-letter3=last_name[-1]
-print("{}{}{}{}".format(letter,letter1,letter2,letter3).upper())
+name=input("please enter your name").upper()
+last_name=input("please enter your last name").upper()
+letter=name[0]+name[-1]+last_name[0]+last_name[-1]
+print(letter)
+age=int(input("please enter your age"))
+result=int(age/33)
+print(result)
