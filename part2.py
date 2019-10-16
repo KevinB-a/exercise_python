@@ -19,3 +19,8 @@ t_shirt=20
 total=shoes+jean+t_shirt
 reduc=80/100
 print(total*reduc)
+
+#exercise4 : mini calculator
+number1=float(input("please enter a number"))
+number2=float(input("please enter a sencond number"))
+print(number1+number2)
