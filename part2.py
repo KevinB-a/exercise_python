@@ -16,9 +16,8 @@ print(age +age1)
 shoes=70
 jean=59
 t_shirt=20
-total=shoes+jean+t_shirt
-reduc=80/100
-print(total*reduc)
+total=(shoes+jean+t_shirt)*(80/100)
+print(total)
 
 #exercise4 : mini calculator
 number1=float(input("please enter a number"))

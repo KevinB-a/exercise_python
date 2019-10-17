@@ -13,7 +13,7 @@ def divide(a,b):
     except ZeroDivisionError:
         print("you try to divide by zero !")
 
-divide(12,2)
+divide(12,0)
 print(4+9+78)
 print(12-7)
 print(5e4)
